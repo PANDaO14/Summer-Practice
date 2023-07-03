@@ -1,0 +1,27 @@
+.portfolio{
+    background: var(--section-color);
+}
+
+.portfolio__title{
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 112px 0 47px;
+}
+
+.portfolio__img{
+    padding-bottom: 99px;
+}
+
+.portfolio__img_desc{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-top: 44px;
+}

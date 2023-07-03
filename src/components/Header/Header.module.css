@@ -1,0 +1,24 @@
+.header{
+    padding: 32px 0;
+}
+
+.header__nav{
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.header__nav a{
+    color: var(--grey-color);
+}
+
+a.header__nav_activebtn{
+    color: var(--black-color);
+}
+

@@ -1,0 +1,27 @@
+.about{
+    background-color: var(--section-color);
+}
+
+.about__text{
+    max-width: 435px;
+    margin: 0 auto;
+    padding-bottom: 107px;
+}
+
+.about__title{
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 120px 0 18px;
+}
+
+.about__desc{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
