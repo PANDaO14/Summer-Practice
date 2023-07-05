@@ -73,12 +73,12 @@
 }
 
 .todo__list__item span{
-    max-width: 268px;
+    max-width: 450px;
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    list-style: disc;
+    text-align: start;
 }
 
 
