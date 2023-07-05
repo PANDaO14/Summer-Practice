@@ -1,0 +1,100 @@
+.todo__list {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo__list__container {
+    width: 750px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50px;
+}
+
+.todo__list__header {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 0;
+}
+
+.todo__list__title {
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.todo__list__content {
+    max-width: 600px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.todo__list__form {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding-bottom: 22px;
+}
+
+.todo__list__form input {
+    border-radius: 5px;
+    background: rgba(117, 45, 191, 0.20);
+    padding: 5px;
+}
+
+.todo__list__form button{
+    background: none;
+    cursor: pointer;
+}
+
+.todo__list__ul{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.todo__list__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: disc;
+    padding-bottom: 10px;
+}
+
+.todo__list__item-btns{
+    display: flex;
+    column-gap: 15px;
+}
+
+.todo__list__item span{
+    max-width: 268px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    list-style: disc;
+}
+
+
+.todo__list__items{
+    padding-bottom: 50px;
+    text-align: end;
+}
+
+.todo__list__allDeleteBtn{
+    background: rgba(117, 45, 191, 0.20);   
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.todo__list__item input{
+    width: 30px;
+    height: 30px;
+}

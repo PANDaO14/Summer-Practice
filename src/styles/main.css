@@ -1,0 +1,8 @@
+@import "./reset.css";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #4E56CA;
+    background: url("../img/bg.jpg"), lightgray 50% / cover no-repeat;
+}
+
